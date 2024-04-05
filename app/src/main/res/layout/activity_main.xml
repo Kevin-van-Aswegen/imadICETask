@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ani_design2"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewage"
+        android:layout_width="307dp"
+        android:layout_height="54dp"
+        android:text="Age"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="16dp"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewage"
+        app:layout_constraintVertical_bias="0.935"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="500dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterAgeView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="Autofill,LabelFor,SpUsage,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/enterAgeView"
+        android:layout_width="116dp"
+        android:layout_height="57dp"
+        android:text="Enter Age:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="16dp"
+        android:text="return"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewage"
+        app:layout_constraintVertical_bias="0.935"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck,TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/Napoleon"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/napoleon_bonaparte"
+        tools:ignore="ContentDescription,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Washington"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/george_washington"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Kennedy"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/john_f__kennedy"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Isaac"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/isaac_newton"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Ienstein"
+        android:layout_width="232dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/albert_einstein"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/KingTut"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/king_tut"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Cleopatra"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/cleopatra"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Elizabeth"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/elizabeth_the_2nd"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Clancy"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/tom_clancy"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Abraham"
+        android:layout_width="267dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/abraham_lincoln"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:id="@+id/NapDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 5th May 1821 and his cause of death was Stomach cancer."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/WasDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 14th December 1799 and his cause of death was throat infection."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck,DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/KenDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 22nd November 1963 and his cause of death was assassination."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/NewtDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 31st March 1727 and his cause of death was mercury poisoning."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/IenDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 18th April 1955 and his cause of death was abdominal aortic aneurysm."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tutDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed away around 1324 BC and hes cause of death was most recently believed to be malaria."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/CleoDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed away around August 30 BC and her cause of death was suicide."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/ElizDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 8th September 2022 and her cause of death was old age."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/TomDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 1st October 2013 and his cause of death was heart failure."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/LinDdescr"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="He passed on the 15th April 1865 and his cause of death was assassination."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Napoleon"
+        tools:ignore="HardcodedText,TextViewEdits,TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
